@@ -1,0 +1,18 @@
+<resources>
+    <declare-styleable name="Theme.Prince">
+        <attr name="toolbar_bg" format="color|reference" />
+        <attr name="toolbarColor" format="color|reference" />
+        <attr name="sidebar_bg" format="color|reference" />
+        <attr name="refreshLayoutBackground" format="color|reference" />
+    </declare-styleable>
+    <declare-styleable name="CircleProgressBar">
+        <attr name="progressBackgroundColor" format="color" />
+        <attr name="progressForegroundColor" format="color" />
+        <attr name="progressBorderWidth" format="dimension" />
+        <attr name="progressSize" format="dimension" />
+    </declare-styleable>
+<declare-styleable name="IGRefreshLayout">
+    <attr name="offsetTop" format="integer"/>
+    <attr name="customBar" format="boolean"/>
+</declare-styleable>
+</resources>

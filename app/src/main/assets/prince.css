@@ -1,0 +1,27 @@
+/*-- CSS Variables --*/
+html.prinsberwa-dark{
+--body-bg-color: linear-gradient(to bottom, #000000, #0f0f0f);
+--body-bg: linear-gradient(to bottom, #000000, #0f0f0f);
+--outer-bg: linear-gradient(to bottom, #000000, #0f0f0f);
+--trending-bg:#0f0f0f;
+--modal-bg:rgba(24, 24, 24, 0.9);
+--cookie-bg:rgba(24, 24, 24, 0.9);
+--cookie-color:#c5c5c8;
+--gray-bg:rgba(255,255,255,0.03);
+--border-color:#303030;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('file:///android_asset/prince.ttf');
+}
+
+body { padding-top: 0px !important; }
+
+header {
+    display: none !important;
+}
+
+footer {
+    display: none !important;
+}

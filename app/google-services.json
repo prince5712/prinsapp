@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "869477492196",
+    "project_id": "prince-jatav-7585a",
+    "storage_bucket": "prince-jatav-7585a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869477492196:android:15d4aa9358dff36c8393f1",
+        "android_client_info": {
+          "package_name": "prinsberwa.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869477492196-a0dkue7ii913npf7do294mdfco8gkg1t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARf56ogFPCiWYsFq4WQi7RO-tUI38vMM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869477492196-a0dkue7ii913npf7do294mdfco8gkg1t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

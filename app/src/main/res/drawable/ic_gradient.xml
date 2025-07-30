@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Gradient Overlay -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:centerColor="@color/pink"
+                android:endColor="@color/pink"
+                android:startColor="@color/blue"
+                android:type="linear" />
+        </shape>
+    </item>
+    <!-- Icon -->
+    <item android:drawable="@drawable/ic_launcher_foreground" />
+</layer-list>

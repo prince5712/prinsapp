@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- App Preferences Section -->
+    <PreferenceCategory
+        android:title="Appearance"
+
+        app:iconSpaceReserved="true">
+
+        <ListPreference
+            android:key="theme_mode_preference"
+            android:title="Color Scheme"
+            android:icon="@drawable/weather_night"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:defaultValue="system"
+            app:iconSpaceReserved="true" />
+
+        <ListPreference
+            android:key="language_preference"
+            android:title="Language"
+            android:icon="@drawable/translate"
+            android:entries="@array/language_entries"
+            android:entryValues="@array/language_values"
+            android:defaultValue="en"
+            app:iconSpaceReserved="true" />
+
+    </PreferenceCategory>
+
+    <!-- Features Section -->
+    <PreferenceCategory
+        android:title="Features"
+
+        app:iconSpaceReserved="true">
+
+        <Preference
+            android:key="subscribe_preference"
+            android:title="Subscribe to Premium"
+            android:icon="@drawable/verified_user_24px"
+            app:iconSpaceReserved="true"
+            app:summary="Get access to premium features" />
+
+        <SwitchPreferenceCompat
+            android:key="firebase_analytics_preference"
+            android:title="Analytics"
+            android:icon="@drawable/firebase"
+            android:defaultValue="true"
+            app:iconSpaceReserved="true"
+            app:summary="Help us improve the app with usage data" />
+
+        <SwitchPreferenceCompat
+            android:key="in_app_updates_preference"
+            android:title="Check Updates"
+            android:icon="@drawable/update"
+            android:defaultValue="true"
+            app:iconSpaceReserved="true"
+            app:summary="Automatically check for updates" />
+
+    </PreferenceCategory>
+
+    <!-- Account Actions Section -->
+    <PreferenceCategory
+        android:title="Account"
+
+        app:iconSpaceReserved="true">
+
+        <Preference
+            android:key="sign_out_preference"
+            android:title="Sign Out"
+            android:icon="@drawable/upload_24px"
+            app:iconSpaceReserved="true"
+            app:iconTint="@color/pink" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

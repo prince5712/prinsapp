@@ -1,0 +1,81 @@
+<resources>
+    <!-- Dark theme -->
+    <style name="App.Theme" parent="Theme.Prince">
+
+    </style>
+
+    <style name="Theme.Prince" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/gold</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status and Navigation Bar Colors -->
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Backgrounds -->
+        <item name="android:windowBackground">@drawable/window_bg_night</item>
+
+        <!-- Typography -->
+        <item name="android:fontFamily">@font/prince</item>
+
+        <item name="progressBackgroundColor">@color/jet_dark</item>
+        <item name="progressForegroundColor">@color/jet_white</item>
+        <item name="refreshLayoutBackground">@color/jet_black</item>
+
+        <!-- Toolbar Colors -->
+        <item name="toolbarColor">@color/white</item>
+        <item name="toolbar_bg">@color/black</item>
+        <item name="sidebar_bg">@drawable/sidebar_bg_night</item>
+
+        <!-- Custom UI -->
+        <item name="colorControlActivated">@color/pink</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <!-- No ActionBar Theme -->
+    <style name="Theme.Prince.NoActionBar" parent="Theme.Prince">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="SplashTheme" parent="Theme.Prince.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_bg_night</item>
+    </style>
+
+    <!-- Custom Dialog Style -->
+    <style name="CustomDialogStyle" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:background">@color/dark</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="buttonBarPositiveButtonStyle">@style/CustomPositiveButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/CustomNegativeButton</item>
+    </style>
+
+    <!-- Custom Button Styles -->
+    <style name="CustomPositiveButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <style name="CustomNegativeButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/pink</item>
+    </style>
+
+    <!-- Overlays -->
+    <style name="Theme.Prince.Toolbar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:background">@color/black</item>
+        <item name="android:titleTextColor">@color/white</item>
+    </style>
+
+    <style name="Theme.Prince.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:popupBackground">@color/gray</item>
+    </style>
+
+
+</resources>

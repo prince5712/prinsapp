@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/hidden_settings_category"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="screenshot_enabled"
+            android:title="@string/enable_screenshots"
+            android:summary="@string/enable_screenshots_summary"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

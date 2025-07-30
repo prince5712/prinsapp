@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search_24px"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/action_show_app_info"
+        android:icon="@drawable/information_variant_circle_outline"
+        android:orderInCategory="100"
+        android:title="@string/action_app_info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_changelog"
+        android:orderInCategory="100"
+        android:icon="@drawable/progress_helper"
+        android:title="@string/action_changelog"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_update"
+        android:icon="@drawable/tag_24px"
+        android:orderInCategory="100"
+        android:title="@string/menu_update"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/settings_24px"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <!-- item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:icon="@drawable/share_all_outline"
+        android:title="@string/menu_share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:icon="@drawable/power"
+        android:title="@string/menu_exit"
+        app:showAsAction="never" /  -->
+</menu>
