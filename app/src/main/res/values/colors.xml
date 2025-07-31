@@ -20,4 +20,35 @@
     <color name="jet_dark">#FF212121</color>
     <color name="midnight_black">#2C3E50</color>
 
+
+    <!-- Primary Colors -->
+    <color name="primary_color">#1976D2</color>
+    <color name="primary_dark">#1565C0</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent_color">#FF4081</color>
+
+    <!-- Surface Colors -->
+    <color name="surface_color">#FFFFFF</color>
+    <color name="surface_variant">#F5F5F5</color>
+    <color name="background_color">#FAFAFA</color>
+
+    <!-- Text Colors -->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="hint_text">#BDBDBD</color>
+
+    <!-- Google Colors -->
+    <color name="google_blue">#4285F4</color>
+    <color name="google_text_color">#3C4043</color>
+
+    <!-- Utility Colors -->
+
+    <color name="divider_color">#E0E0E0</color>
+    <color name="error_color">#F44336</color>
+    <color name="success_color">#4CAF50</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#E3F2FD</color>
+    <color name="gradient_end">#F3E5F5</color>
+
 </resources>

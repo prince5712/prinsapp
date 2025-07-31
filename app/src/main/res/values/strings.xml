@@ -76,7 +76,16 @@
     <string name="install_update">Install Update</string>
     <string name="update_file_not_found">Update file not found</string>
 
-        <!-- Hidden Settings -->
+    <!-- strings.xml additions -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_in_subtitle">Sign in to continue to your account</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="secure_login">Secure login with Google</string>
+    <string name="terms_and_privacy">By continuing, you agree to our Terms of Service and Privacy Policy</string>
+    <string name="app_description">Your trusted companion for managing your daily tasks and staying organized</string>
+
+
+    <!-- Hidden Settings -->
         <string name="hidden_settings">Hidden Settings</string>
         <string name="hidden_settings_category">App Security</string>
         <string name="enable_screenshots">Enable Screenshots</string>
